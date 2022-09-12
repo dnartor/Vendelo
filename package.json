@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "webpack-dev-server": "^4.10.0"
+  },
+  "devDependencies": {
+    "@prettier/plugin-ruby": "^3.2.0",
+    "prettier": "^2.7.1",
+    "prettier-plugin-erb": "^0.4.0"
+  }
+}

@@ -1,0 +1,83 @@
+es:
+  app_name: 'Véndelo'
+  meta_title: 'Compra y vende productos de segunda mano'
+  not_logged_in: 'Debes iniciar sesión'
+  activerecord:
+    models:
+      product: 'Producto'
+      category: 'Categoria'
+      user: 'Usuario'
+    attributes:
+      product:
+        title: 'Título'
+        description: 'Descripción'
+        price: 'Precio'
+        category_id: 'Categoría'
+        category: 'Categoría'
+        photo: 'Foto'
+      category:
+        name: 'Nombre'
+      user:
+        username: 'Nombre de usuario'
+        password: 'Contraseña'
+  common:
+    confirm: ¿Estás seguro?
+    add_product: Add product
+    backCat: 'Volver a las categorías'
+    categories: 'Categorías'
+    login: 'Iniciar sesión'
+    register: 'Registrarse'
+    not_authorized: 'No tienes permisos para realizar esta acción'
+  products:
+    edit:
+      title: 'Editar producto'
+    new:
+      title: 'Añadir producto'
+    index:
+      title: 'Productos:'
+      all: 'Todos'
+      min_price: 'Precio mínimo'
+      max_price: 'Precio máximo'
+      search: 'Encuentra lo que necesites'
+      expensive: 'Precio más alto'
+      cheapest: 'Precio más bajo'
+      newest: 'Recientes'
+    create:
+      created: 'Tu producto se ha creado correctamente'
+    update:
+      updated: 'Tu producto se ha actualizado'
+    destroy:
+      destroyed: 'Tu producto se ha eliminado correctamente'
+    show:
+      edit: 'Editar producto'
+      delete: 'Eliminar producto'
+
+  categories:
+    edit:
+      title: 'Editar categoría'
+    new:
+      title: 'Añadir categoría'
+    index:
+      title: 'Categorías:'
+      new: 'Añadir categoría'
+    category:
+      edit: 'Editar categoría'
+      delete: 'Eliminar categoría'
+    create:
+      created: 'Tu categoría se ha creado correctamente'
+    update:
+      updated: 'Tu categoría se ha actualizado'
+    destroy:
+      destroyed: 'Tu categoría se ha eliminado correctamente'
+    show:
+      edit: 'Editar categoría'
+      delete: 'Eliminar categoría'
+
+  authentication:
+    users:
+      create:
+        created: 'Usuario creado'
+    sessions:
+      create:
+        created: '¡Bienvenido!'
+        failed: '¡No existe el usuario!'
