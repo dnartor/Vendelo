@@ -12,10 +12,4 @@
 
 <p><%= link_to "Ver más productos de #{@product.user.username}", user_path(@product.user.username) %></p>
 
-<%= link_to  '❤️', favorites_path(product_id: @product.id), data:{
-    turbo_method: :post,
-} if Current.user %>
-
-<%= link_to  '💔', favorite_path(@product.id), data:{
-    turbo_method: :delete,
-} if Current.user %>
+<%= render partial: 'favorite', locals: { product: @product} %>
