@@ -1,4 +1,4 @@
-<%= link_to t('common.add_product'), new_product_path, class:'mx-2 text-teal-500 font-bold' if Current.user%>
+<%= link_to t('common.add_product'), new_product_path, class:'mx-2 text-teal-500 font-bold', data: {turbo_frame: 'modal' } if Current.user%>
 <%= link_to 'Favoritos', favorites_path, class:'mx-2 text-teal-500 font-bold' if Current.user %>
 <%= link_to t('common.categories'), categories_path,class:'mx-2 text-teal-500 font-bold' if Current.user&.admin? %>
 <%= link_to t('common.login'), new_session_path, class:'mx-2 text-teal-500 font-bold' unless Current.user %>
