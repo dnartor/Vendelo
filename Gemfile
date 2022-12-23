@@ -68,6 +68,11 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+
+  gem "letter_opener"
+
+  gem "awesome_print", "~> 1.9"
+
 end
 
 group :test do
@@ -75,7 +80,14 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
+  gem "webmock", "~> 3.18"
 end
 
 
 gem "tailwindcss-rails", "~> 2.0"
+
+gem "view_component", "~> 2.79"
+
+
+
+gem "sidekiq", "~> 7.0"

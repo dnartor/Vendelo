@@ -81,3 +81,7 @@ es:
       create:
         created: '¡Bienvenido!'
         failed: '¡No existe el usuario!'
+  user_mailer:
+    welcome:
+      welcome_message: 'Hey %{username}, bienvenido a Vendelo. ¡Esperamos que vendas muchisimo!'
+      subject: 'Bienvenido a Vendelo'

@@ -105,7 +105,11 @@ en:
     users:
     create:
       created: 'Usuario creado'
-  sessions:
-      create:
-        created: 'Welcome!'
-        failed: 'Invalid login!'
+    sessions:
+        create:
+          created: 'Welcome!'
+          failed: 'Invalid login!'
+  user_mailer:
+    welcome:
+      welcome_message: 'Hey %{username}, welcome to SellIT. We hope you sell a lot!'
+      subject: 'Welcome to SellIT'
